@@ -3,3 +3,25 @@
   width: 16px;
   height: 16px;
 }
+
+#search {
+  height: 16px;
+  width: 16px;
+  margin-left: 20px;
+}
+
+#new-york-times-heading {
+  height: 25px;
+  width: 184px;
+}
+
+.user-buttons button {
+  background-color: #567b95;
+  color: white;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #326891;
+}
