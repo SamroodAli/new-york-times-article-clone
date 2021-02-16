@@ -123,6 +123,17 @@ main #main-article p {
   line-height: 30px;
 }
 
+/* Main article figure */
+.main-heading-figure {
+  display: grid;
+  width: 75vw;
+}
+
+.main-heading-figure img {
+  max-height: 100%;
+  width: 1200px;
+}
+
 nav.social-media {
   width: 600px;
   display: flex;
