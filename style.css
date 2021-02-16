@@ -1,7 +1,12 @@
 /* header styling */
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* fixed navbar */
-header nav {
+nav#fixed-top-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -120,12 +125,10 @@ article p {
 }
 
 /* suggested articles stying */
-.other-articles-section {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+
+.newsletter img {
+  height: 100px;
+  width: 100px;
 }
 
 .other-articles-section aside {
@@ -141,8 +144,29 @@ article p {
   margin: 15px 0 15px 0;
 }
 
-.suggested-articles {
+/* footer styles */
+footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  display: flex;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+.footer-articles {
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.article-sub-section-footer {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer aside {
+  display: flex;
+  flex-direction: column;
 }
