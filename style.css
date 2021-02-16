@@ -5,6 +5,9 @@ a {
   color: black;
 }
 
+ul li {
+  list-style: none;
+}
 /* fixed navbar */
 
 nav#fixed-top-nav {
@@ -22,7 +25,6 @@ nav#fixed-top-nav {
 }
 
 .nav-first li {
-  list-style: none;
   margin-right: 20px;
 }
 
@@ -67,6 +69,8 @@ nav#fixed-top-nav {
   border: 1px solid #326891;
 }
 
+/* Header styling */
+
 header > h1 {
   font-family: georgia, "times new roman", times, serif;
   font-size: 40px;
@@ -74,6 +78,30 @@ header > h1 {
   width: 600px;
   font-weight: 700;
 }
+
+nav.social-media {
+  display: flex;
+}
+
+nav.social-media ul {
+  display: flex;
+}
+
+nav.social-media ul li {
+  border-radius: 50%;
+  background-color: #eee;
+  padding: 0 15px;
+  flex-basis: 5%;
+  margin: 10px;
+}
+
+nav.social-media ul li a img {
+  position: relative;
+  top: 20%;
+  left: 25%;
+  transform: scale(0.8);
+}
+
 #facebook {
   width: 7px;
   height: 15px;
