@@ -1,4 +1,27 @@
 /* header styling */
+
+/* fixed navbar */
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-first {
+  display: flex;
+  align-items: center;
+}
+
+/* nav first children */
+.nav-first * {
+  margin: 5px;
+}
+
 #menu-hamburger-icon {
   width: 16px;
   height: 16px;
@@ -7,7 +30,6 @@
 #search {
   height: 16px;
   width: 16px;
-  margin-left: 20px;
 }
 
 #new-york-times-heading {
@@ -19,6 +41,7 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+  justify-self: flex-start;
 }
 
 #facebook {
@@ -57,11 +80,18 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   padding: 10px;
-  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 5%;
   font-weight: bold;
   border: 1px solid #326891;
 }
 
 figure img {
   width: 1200px;
+}
+
+main {
+  position: relative;
+  top: 5vh;
 }
