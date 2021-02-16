@@ -11,10 +11,39 @@
 }
 
 #new-york-times-heading {
-  height: 25px;
   width: 184px;
+  height: 25px;
 }
 
+#facebook {
+  width: 7px;
+  height: 15px;
+}
+
+#whatsapp {
+  width: 17px;
+  height: 17px;
+}
+
+#twitter {
+  width: 13px;
+  height: 10px;
+}
+
+#email {
+  width: 15px;
+  height: 9px;
+}
+
+#forward {
+  width: 16px;
+  height: 3%;
+}
+
+#bookmark {
+  width: 16px;
+  height: 25px;
+}
 .user-buttons button {
   background-color: #567b95;
   color: white;
