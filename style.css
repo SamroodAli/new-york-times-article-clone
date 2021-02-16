@@ -1,4 +1,4 @@
-/* header styling */
+/* Styles to cascade down */
 
 a {
   text-decoration: none;
@@ -6,26 +6,30 @@ a {
 }
 
 /* fixed navbar */
+
 nav#fixed-top-nav {
+  background-color: white;
+  z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 0.5px solid #ccc;
+}
+
+.nav-first li {
+  list-style: none;
+  margin-right: 20px;
 }
 
 .nav-first {
   display: flex;
   align-items: center;
-}
-
-/* nav first children */
-.nav-first * {
-  margin: 5px;
+  justify-content: space-between;
 }
 
 #menu-hamburger-icon {
@@ -39,8 +43,9 @@ nav#fixed-top-nav {
 }
 
 #new-york-times-heading {
-  width: 184px;
-  height: 25px;
+  width: 183px;
+  height: 24px;
+  font-family: helvetica, arial, sans-serif;
 }
 
 #space-cosmos {
@@ -50,6 +55,25 @@ nav#fixed-top-nav {
   justify-self: flex-start;
 }
 
+.user-buttons button {
+  background-color: #567b95;
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 11px;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 5%;
+  font-weight: bold;
+  border: 1px solid #326891;
+}
+
+header > h1 {
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 40px;
+  font-style: italic;
+  width: 600px;
+  font-weight: 700;
+}
 #facebook {
   width: 7px;
   height: 15px;
@@ -80,19 +104,6 @@ nav#fixed-top-nav {
   height: 25px;
 }
 
-.user-buttons button {
-  background-color: #567b95;
-  color: white;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 11px;
-  padding: 10px;
-  margin-top: 10px;
-  margin-right: 5px;
-  border-radius: 5%;
-  font-weight: bold;
-  border: 1px solid #326891;
-}
-
 figure img {
   width: 1200px;
 }
@@ -109,12 +120,6 @@ main article {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h1 {
-  font-family: georgia, "times new roman", times, serif;
-  font-size: 40px;
-  font-style: italic;
 }
 
 article p {
