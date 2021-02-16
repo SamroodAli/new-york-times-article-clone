@@ -94,4 +94,7 @@ figure img {
 main {
   position: relative;
   top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
