@@ -1,8 +1,16 @@
 /* Styles to cascade down */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
 a {
   text-decoration: none;
-  color: black;
 }
 
 ul li {
@@ -54,7 +62,6 @@ nav#fixed-top-nav {
 #space-cosmos {
   font-weight: bold;
   text-decoration: none;
-  color: black;
   justify-self: flex-start;
 }
 
@@ -70,31 +77,57 @@ nav#fixed-top-nav {
   border: 1px solid #326891;
 }
 
-/* Header styling */
+/* Main styling */
 
-header > h1 {
+/* Header styling */
+main {
+  position: relative;
+  top: 10vh;
+  display: grid;
+  grid-template-columns: 75%;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+main header {
+  width: 600px;
+  margin: auto;
+}
+
+main header h1 {
   font-family: georgia, "times new roman", times, serif;
   font-size: 40px;
+  color: #121212;
   font-style: italic;
-  width: 600px;
+  line-height: 48px;
   font-weight: 700;
+  text-align: center;
 }
 
-.main-heading-figure {
-  width: 75vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#author {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: helvetica, arial, sans-serif;
 }
 
-.main-heading-figure img {
-  max-width: 100%;
-  flex-basis: 50%;
-  flex-grow: 0;
+#main-article #date {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+main #main-article p {
+  color: #333;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 nav.social-media {
+  width: 600px;
   display: flex;
+  margin: 20px;
+  padding: 20px;
 }
 
 nav.social-media ul {
@@ -144,71 +177,4 @@ nav.social-media ul li a img {
 #bookmark {
   width: 16px;
   height: 25px;
-}
-
-main {
-  position: relative;
-  top: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-main article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-article p {
-  width: 40%;
-  font-family: georgia, "times new roman", times, serif;
-  line-height: 30px;
-  color: #333;
-}
-
-/* suggested articles stying */
-.newsletter img {
-  height: 100px;
-  width: 100px;
-}
-
-.other-articles-section aside {
-  font-size: 20px;
-  line-height: 30px;
-  color: black;
-  font-weight: 500;
-  grid-column: 3/4;
-}
-
-.other-articles-section aside article {
-  border-top: 1px solid gainsboro;
-  margin: 15px 0 15px 0;
-}
-
-/* footer styles */
-footer {
-  display: grid;
-  display: flex;
-}
-
-footer a {
-  font-size: 14px;
-}
-
-.footer-articles {
-  flex-basis: 80%;
-  display: flex;
-  flex-direction: row;
-}
-
-.article-sub-section-footer {
-  flex-basis: 20%;
-  display: flex;
-  flex-direction: column;
-}
-
-footer aside {
-  display: flex;
-  flex-direction: column;
 }
