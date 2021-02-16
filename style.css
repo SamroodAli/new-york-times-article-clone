@@ -15,6 +15,12 @@
   height: 25px;
 }
 
+#space-cosmos {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
 #facebook {
   width: 7px;
   height: 15px;
@@ -44,6 +50,7 @@
   width: 16px;
   height: 25px;
 }
+
 .user-buttons button {
   background-color: #567b95;
   color: white;
@@ -53,4 +60,8 @@
   border-radius: 5px;
   font-weight: bold;
   border: 1px solid #326891;
+}
+
+figure img {
+  width: 1200px;
 }
