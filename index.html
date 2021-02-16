@@ -16,18 +16,22 @@
 <body>
     <!-- nav section -->
     <nav id="fixed-top-nav">
-        <div class="nav-first">
+        <ul class="nav-first">
             <!-- hamburger menu button -->
-            <a href="">
-                <img id="menu-hamburger-icon" src="./assets/svg/asset-18.svg" alt="menu" />
-            </a>
+            <li>
+                <a href="">
+                    <img id="menu-hamburger-icon" src="./assets/svg/asset-18.svg" alt="menu" />
+                </a>
+            </li>
             <!-- search  -->
-            <a href="">
-                <img src="./assets/svg/asset-19.svg" alt="search" id="search" />
-            </a>
+            <li>
+                <a href="">
+                    <img src="./assets/svg/asset-19.svg" alt="search" id="search" />
+                </a>
+            </li>
             <!-- space and cosmos -->
-            <a href="" id="space-cosmos">SPACE & COSMOS </a>
-        </div>
+            <li><a href="" id="space-cosmos">SPACE & COSMOS </a></li>
+        </ul>
         <div class="nav-center">
             <a href="">
                 <img src="./assets/svg/asset-37.svg" alt="New York Times Main heading" id="new-york-times-heading" />
@@ -40,46 +44,57 @@
             </div>
         </div>
     </nav>
-
     <!-- Main article -->
     <main>
         <!-- Header -->
-
         <header>
             <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
             <hr />
-            <nav>
-                <a href="">
-                    <img src="./assets/svg/asset-29.svg" alt="" id="facebook" />
-                </a>
-                <a href="">
-                    <img src="./assets/svg/asset-17.svg" alt="" id="whatsapp" />
-                </a>
-                <a href="">
-                    <img src="./assets/svg/asset-25.svg" alt="" id="twitter" />
-                </a>
-                <a href="">
-                    <img src="./assets/svg/asset-26.svg" alt="" id="email" />
-                </a>
-                <a href="">
-                    <img src="./assets/svg/asset-27.svg" alt="" id="forward" />
-                </a>
-                <a href="">
-                    <img src="./assets/svg/asset-28.svg" alt="" id="bookmark" />
-                </a>
+            <nav class="social-media">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-29.svg" alt="" id="facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-17.svg" alt="" id="whatsapp" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-25.svg" alt="" id="twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-26.svg" alt="" id="email" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-27.svg" alt="" id="forward" />
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./assets/svg/asset-28.svg" alt="" id="bookmark" />
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <article id="main-article">
-
-            <figure>
+            <figure class="main-heading-figure">
+                <img src="./assets/jpeg/asset-0.jpeg" alt="image of Alan GUth" />
                 <figcaption>
-                    <img src="./assets/jpeg/asset-0.jpeg" alt="image of Alan GUth" />
-                    <p>
-                        Alan Guth was one of the first physicists to hypothesize the
-                        existence of inflation, which explains how the universe expanded
-                        so uniformly and so quickly in the instant after the Big Bang 13.8
-                        billion years ago.<span>Credit...</span><span> Rick Friedman for The New York Times </span>
-                    </p>
+                    Alan Guth was one of the first physicists to hypothesize the
+                    existence of inflation, which explains how the universe expanded
+                    so uniformly and so quickly in the instant after the Big Bang 13.8
+                    billion years ago.<span>Credit...</span><span> Rick Friedman for The New York Times </span>
                 </figcaption>
             </figure>
             <p>By Dennis Overbye</p>

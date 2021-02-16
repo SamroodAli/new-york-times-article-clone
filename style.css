@@ -8,6 +8,7 @@ a {
 ul li {
   list-style: none;
 }
+
 /* fixed navbar */
 
 nav#fixed-top-nav {
@@ -79,6 +80,19 @@ header > h1 {
   font-weight: 700;
 }
 
+.main-heading-figure {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading-figure img {
+  max-width: 100%;
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+
 nav.social-media {
   display: flex;
 }
@@ -132,18 +146,6 @@ nav.social-media ul li a img {
   height: 25px;
 }
 
-/* Main Article Styling */
-#main-article-image-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#main-article-image {
-  width: 1200px;
-  flex-basis: 50%;
-}
-
 main {
   position: relative;
   top: 5vh;
@@ -166,7 +168,6 @@ article p {
 }
 
 /* suggested articles stying */
-
 .newsletter img {
   height: 100px;
   width: 100px;
