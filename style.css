@@ -98,3 +98,16 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+article p {
+  width: 40%;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 30px;
+  color: #333;
+}
