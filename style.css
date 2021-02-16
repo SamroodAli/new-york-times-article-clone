@@ -132,8 +132,16 @@ nav.social-media ul li a img {
   height: 25px;
 }
 
-figure img {
+/* Main Article Styling */
+#main-article-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-article-image {
   width: 1200px;
+  flex-basis: 50%;
 }
 
 main {
