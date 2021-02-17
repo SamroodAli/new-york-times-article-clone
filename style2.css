@@ -23,6 +23,8 @@ nav#fixed-top-nav {
   top: 0;
   left: 0;
   right: 0;
+  padding: 0.5em;
+  height: 6vh;
   display: grid;
   justify-content: center;
   align-items: stretch;
@@ -71,7 +73,7 @@ nav#fixed-top-nav {
   background-color: #567b95;
   color: white;
   width: 100%;
-  height: 90%;
+  height: 120%;
   margin: 0 0.2em;
   font-family: helvetica, arial, sans-serif;
   font-size: 0.7em;
@@ -79,6 +81,13 @@ nav#fixed-top-nav {
   font-weight: 900;
   border: 1px solid #326891;
   overflow: hidden;
+}
+
+#subscribe {
+  flex: 2 1 65%;
+}
+#log-in {
+  flex: 1 1 35%;
 }
 
 #space-cosmos {
@@ -113,4 +122,25 @@ nav#fixed-top-nav {
 #bookmark {
   width: 16px;
   height: 25px;
+}
+
+/* Main Heading Style */
+header {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 10% 30% 70%;
+}
+
+#heading-and-social-network {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#main-heading-figure {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+#main-heading-figure img {
+  max-width: 100%;
 }
