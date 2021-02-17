@@ -21,10 +21,17 @@ ul li {
   list-style: none;
 }
 
+/* Body as a grid */
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 nav#fixed-top-nav {
   background-color: #fff;
-  z-index: 2;
-  position: fixed;
+  /* z-index: 2; */
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
@@ -163,8 +170,6 @@ header {
 
 /* Main article styling */
 main {
-  position: relative;
-  top: 35vh;
   display: grid;
   grid-template-columns: 25% 50% 1fr 2fr 1fr;
 }
@@ -201,32 +206,55 @@ main {
 }
 
 /* Other suggested articles styling */
-.other-articles-section {
-  position: relative;
-  top: 50vh;
+#other-articles-section {
+  background-color: yellow;
   display: grid;
   grid-template-columns: 12.5% 52.5% 22.5% 12.5%;
+  grid-template-rows: auto;
 }
 
-.other-articles-section article {
+#other-articles-section article {
+  background-color: blue;
+  max-height: 100%;
   margin: 1rem;
 }
 
 #suggested-articles {
   grid-column: 2/3;
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
 }
 
 #other-articles-section-aside {
+  background-color: red;
   grid-column: 3/4;
+  grid-row: 1/4;
 }
 
 /* Styling the other articles */
-.newsletter {
+#newsletter {
   grid-row: 1/2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* styling the newsletter articles */
+#newsletter article {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 5% 30% 30% 35%;
+  grid-template-columns: 5% 30% 45% 13% 7%;
+}
+
+#newsletter article img {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#newsletter .newsletter-text-container {
+  grid-row: 3/4;
+  grid-column: 2/7;
+  display: grid;
+  flex-direction: column;
 }
 
 .more-articles {
@@ -243,6 +271,7 @@ main {
 
 /* Footer styling */
 footer {
+  margin-top: 5rem;
   display: grid;
   grid-template-columns: 12.5% 5fr 1fr 12.5%;
 }
