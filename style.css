@@ -358,47 +358,14 @@ footer {
   flex-direction: column;
 }
 
-/* Text on picture section */
-main #main-article #text-picture {
-  /* background-image: url("./assets/inflation/inflation.png"); */
-  background-color: grey;
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-size: 10px;
-  display: flex;
-  flex-direction: column;
+/* Text on picture styling */
+#text-picture {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: 150px 110px 170px 135px;
+  margin: 200px;
 }
 
-main #main-article #text-picture article {
-  margin: 1%;
-}
-
-#main-article #text-picture img {
-  max-width: 100%;
-}
-
-main #main-article #text-picture .row1 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-main #main-article #text-picture .row2 {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-main #main-article #text-picture .row1 img {
-  flex: 0 0 20%;
-}
-
-main #main-article #text-picture .row1 article {
-  flex: 0 0 20%;
-}
-
-main #main-article #text-picture .row2 img {
-  flex: 0 0 20%;
-}
-
-main #main-article #text-picture .row2 article {
-  flex: 0 0 20%;
+#text-picture p {
+  font-size: 14px;
 }
