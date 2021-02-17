@@ -228,3 +228,22 @@ main {
 }
 
 /* Footer styling */
+footer {
+  display: grid;
+  grid-template-columns: 12.5% 5fr 1fr 12.5%;
+}
+
+#footer-articles {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#footer-aside {
+  grid-column: 3/4;
+}
+
+.footer-article-sub-section {
+  display: flex;
+  flex-direction: column;
+}
