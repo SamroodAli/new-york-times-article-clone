@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0;
   color: #333;
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 20px;
 }
 
 img {
@@ -19,6 +22,13 @@ a {
 
 ul li {
   list-style: none;
+}
+
+figcaption {
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 20px;
+  color: #666;
 }
 
 /* https://stackoverflow.com/questions/49701408/css-grid-auto-height-rows-sizing-to-content/49701488 */
@@ -319,17 +329,19 @@ main {
   grid-template-rows: minmax(min-content, max-content);
 }
 
-#other-articles-section article {
-}
-
 #suggested-articles {
   grid-column: 2/3;
   display: grid;
 }
 
+#suggested-articles section {
+  margin: 1em;
+}
+
 #other-articles-section-aside {
   grid-column: 3/4;
   grid-row: 1/4;
+  margin: 1em;
 }
 
 #other-articles-section-aside article {
@@ -337,8 +349,13 @@ main {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
   line-height: 23px;
-  margin: 25px 0;
+  margin: 2em 0;
+  font-size: 1.2em;
   border-top: 1px solid rgb(226, 226, 226);
+}
+
+#other-articles-section section {
+  margin: 1em;
 }
 
 /* Styling the other articles */
@@ -349,23 +366,20 @@ main {
 }
 
 /* styling the newsletter articles */
+
 #newsletter article {
-  padding: 2em;
-  display: grid;
-  grid-template-rows: 5% 30% 30% 35%;
-  grid-template-columns: 5% 30% 45% 13% 7%;
+  border: 1px solid rgb(226, 226, 226);
 }
 
 #newsletter article img {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  margin: 1em;
+  max-width: 30%;
+  max-height: 30%;
 }
 
 #newsletter .newsletter-text-container {
-  grid-row: 3/4;
-  grid-column: 2/7;
-  display: grid;
-  flex-direction: column;
+  margin-bottom: 50%;
+  padding: 1em;
 }
 
 .more-articles {
