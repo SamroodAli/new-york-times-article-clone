@@ -8,6 +8,11 @@
   padding: 0;
   color: #333;
 }
+
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -86,6 +91,7 @@ nav#fixed-top-nav {
 #subscribe {
   flex: 2 1 65%;
 }
+
 #log-in {
   flex: 1 1 35%;
 }
@@ -124,13 +130,10 @@ nav#fixed-top-nav {
   height: 25px;
 }
 
-#placeholder {
-  height: 6vh;
-  width: 100%;
-}
-
 /* Main Heading Style */
 header {
+  position: relative;
+  top: 10vh;
   display: grid;
   grid-template-columns: 15% 70% 15%;
   grid-template-rows: 30% 70%;
@@ -152,6 +155,8 @@ header {
 
 /* Main article styling */
 main {
+  position: relative;
+  top: 35vh;
   display: grid;
   grid-template-columns: 25% 50% 1fr 2fr 1fr;
 }
@@ -179,4 +184,20 @@ main {
 
 #main-article-aside p {
   margin: 1rem;
+}
+
+/* Other suggested articles styling */
+.other-articles-section {
+  position: relative;
+  top: 50vh;
+  display: grid;
+  grid-template-columns: 15% 50% 20% 15%;
+}
+
+#suggested-articles {
+  grid-column: 2/3;
+}
+
+#other-articles-section-aside {
+  grid-column: 3/4;
 }
