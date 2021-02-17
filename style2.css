@@ -122,7 +122,7 @@ nav#fixed-top-nav {
 
 #forward {
   width: 16px;
-  height: 3%;
+  height: 20px;
 }
 
 #bookmark {
@@ -142,6 +142,14 @@ header {
 #heading-and-social-network {
   grid-column: 2/3;
   grid-row: 1/2;
+}
+
+#social-media ul {
+  display: flex;
+}
+
+#social-media ul li {
+  margin: 0 1rem;
 }
 
 #main-heading-figure {
