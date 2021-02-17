@@ -352,20 +352,20 @@ footer {
   margin-top: 5em;
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
-  grid-template-columns: 12.5% 5fr 1fr 12.5%;
+  grid-template-columns: 1fr 6fr 1fr;
 }
 
-#footer-articles {
+#footer-nav-columns {
   grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+#footer-articles {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
 
-#footer-aside {
-  grid-column: 3/4;
-}
-
-.footer-article-sub-section {
-  display: flex;
-  flex-direction: column;
+#footer-bottom-nav {
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
