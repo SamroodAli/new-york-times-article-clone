@@ -17,21 +17,24 @@ ul li {
 }
 
 nav#fixed-top-nav {
-  background-color: white;
+  background-color: #fff;
   z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 7vh;
   display: grid;
+  justify-content: center;
+  align-items: stretch;
   grid-template-columns: 20% 65% 15%;
+  border-bottom: 1px solid silver;
 }
 
 /* nav bar icon svg sizes */
 #menu-hamburger-icon {
   width: 1rem;
   height: 1rem;
+  margin: 1rem;
 }
 
 #search {
@@ -40,24 +43,43 @@ nav#fixed-top-nav {
 }
 
 #new-york-times-heading {
-  width: 1em;
+  width: 14em;
   height: 2em;
 }
 
 /* Aligning nav bar within items */
 .nav-first {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 3fr;
+  align-items: center;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-end {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .user-buttons button {
   background-color: #567b95;
   color: white;
+  width: 100%;
+  margin: 0 0.2em;
   font-family: helvetica, arial, sans-serif;
-  font-size: 11px;
-  padding: 10px;
-  margin-right: 5px;
-  border-radius: 5%;
-  font-weight: bold;
+  font-size: 0.7em;
+  border-radius: 4%;
+  font-weight: 900;
   border: 1px solid #326891;
+  overflow: hidden;
+}
+
+#space-cosmos {
+  font-weight: 900;
 }
