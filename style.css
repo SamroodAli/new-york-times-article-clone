@@ -335,6 +335,18 @@ main {
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* Text on picture styling */
+#text-picture {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: 150px 110px 170px 135px;
+  margin: 200px;
+}
+
+#text-picture p {
+  font-size: 14px;
+}
+
 /* Footer styling */
 footer {
   margin-top: 5em;
@@ -356,16 +368,4 @@ footer {
 .footer-article-sub-section {
   display: flex;
   flex-direction: column;
-}
-
-/* Text on picture styling */
-#text-picture {
-  display: grid;
-  grid-template-columns: repeat(4, 240px);
-  grid-template-rows: 150px 110px 170px 135px;
-  margin: 200px;
-}
-
-#text-picture p {
-  font-size: 14px;
 }
