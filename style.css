@@ -24,12 +24,6 @@ nav#fixed-top-nav {
   justify-content: space-between;
 }
 
-#space-cosmos {
-  font-weight: bold;
-  text-decoration: none;
-  justify-self: flex-start;
-}
-
 .user-buttons button {
   background-color: #567b95;
   color: white;
@@ -108,36 +102,6 @@ nav.social-media ul li a img {
   top: 20%;
   left: 25%;
   transform: scale(0.8);
-}
-
-#facebook {
-  width: 7px;
-  height: 15px;
-}
-
-#whatsapp {
-  width: 17px;
-  height: 17px;
-}
-
-#twitter {
-  width: 13px;
-  height: 10px;
-}
-
-#email {
-  width: 15px;
-  height: 9px;
-}
-
-#forward {
-  width: 16px;
-  height: 3%;
-}
-
-#bookmark {
-  width: 16px;
-  height: 25px;
 }
 
 /* main article with aside grid */

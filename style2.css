@@ -32,13 +32,12 @@ nav#fixed-top-nav {
 
 /* nav bar icon svg sizes */
 #menu-hamburger-icon {
-  width: 1rem;
-  height: 1rem;
-  margin: 1rem;
+  width: 1em;
+  height: 1em;
+  margin: 0 1em;
 }
 
 #search {
-  height: 1em;
   width: 1em;
 }
 
@@ -65,12 +64,14 @@ nav#fixed-top-nav {
   width: 100%;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .user-buttons button {
   background-color: #567b95;
   color: white;
   width: 100%;
+  height: 90%;
   margin: 0 0.2em;
   font-family: helvetica, arial, sans-serif;
   font-size: 0.7em;
@@ -82,4 +83,34 @@ nav#fixed-top-nav {
 
 #space-cosmos {
   font-weight: 900;
+}
+
+#facebook {
+  width: 7px;
+  height: 15px;
+}
+
+#whatsapp {
+  width: 17px;
+  height: 17px;
+}
+
+#twitter {
+  width: 13px;
+  height: 10px;
+}
+
+#email {
+  width: 15px;
+  height: 9px;
+}
+
+#forward {
+  width: 16px;
+  height: 3%;
+}
+
+#bookmark {
+  width: 16px;
+  height: 25px;
 }
