@@ -135,7 +135,7 @@ header {
   position: relative;
   top: 10vh;
   display: grid;
-  grid-template-columns: 15% 70% 15%;
+  grid-template-columns: 12.5% 75% 12.5%;
   grid-template-rows: 30% 70%;
 }
 
@@ -191,13 +191,40 @@ main {
   position: relative;
   top: 50vh;
   display: grid;
-  grid-template-columns: 15% 50% 20% 15%;
+  grid-template-columns: 12.5% 52.5% 22.5% 12.5%;
+}
+
+.other-articles-section article {
+  margin: 1rem;
 }
 
 #suggested-articles {
   grid-column: 2/3;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 #other-articles-section-aside {
   grid-column: 3/4;
 }
+
+/* Styling the other articles */
+.newsletter {
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.more-articles {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.editor-pick-articles {
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Footer styling */
