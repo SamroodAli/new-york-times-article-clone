@@ -42,8 +42,8 @@ body {
 
 nav#fixed-top-nav {
   background-color: #fff;
-  /* z-index: 2; */
-  /* position: fixed; */
+  z-index: 2;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -122,31 +122,27 @@ nav#fixed-top-nav {
   flex: 1 1 35%;
 }
 
-#space-cosmos {
-  font-weight: 900;
-}
-
-#facebook {
+.facebook {
   width: 7px;
   height: 15px;
 }
 
-#whatsapp {
+.whatsapp {
   width: 17px;
   height: 17px;
 }
 
-#twitter {
+.twitter {
   width: 13px;
   height: 10px;
 }
 
-#email {
+.email {
   width: 15px;
   height: 9px;
 }
 
-#forward {
+.forward {
   width: 16px;
   height: 20px;
 }
@@ -420,6 +416,10 @@ footer {
   gap: 50px;
   grid-template-rows: minmax(min-content, max-content);
   grid-template-columns: 1fr 6fr 1fr;
+}
+
+footer a {
+  margin: 3px;
 }
 
 #footer-nav-columns {
