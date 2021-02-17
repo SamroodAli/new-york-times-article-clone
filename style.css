@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   color: #333;
-  font-size: 15px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   line-height: 20px;
 }
@@ -192,7 +191,8 @@ header {
 
 #heading-and-social-network h1 {
   width: 90%;
-  font-size: 5em;
+  font-size: 60px;
+  line-height: 68px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-style: italic;
   color: #121212;
