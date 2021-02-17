@@ -124,23 +124,48 @@ nav#fixed-top-nav {
   height: 25px;
 }
 
+#placeholder {
+  height: 6vh;
+  width: 100%;
+}
+
 /* Main Heading Style */
 header {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 10% 30% 70%;
+  grid-template-rows: 30% 70%;
 }
 
 #heading-and-social-network {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 1/2;
 }
 
 #main-heading-figure {
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 2/3;
 }
 
 #main-heading-figure img {
+  max-width: 100%;
+}
+
+/* Main article styling */
+main {
+  display: grid;
+  grid-template-columns: 25% 50% 7% 18%;
+}
+
+#main-article {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+}
+
+#main-article-aside {
+  grid-column: 4/5;
+}
+
+#main-article-aside img {
   max-width: 100%;
 }
