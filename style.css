@@ -173,8 +173,11 @@ header {
   display: flex;
 }
 
-#social-media ul li {
-  padding: 2rem;
+#social-media li.grey-background {
+  padding: 1rem;
+  width: 4rem;
+  background-image: url("./assets/svg/Circle_Grey_Solid.svg");
+  background-size: cover;
 }
 
 #main-heading-figure {
