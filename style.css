@@ -189,23 +189,22 @@ header {
   color: #121212;
 }
 
-#social-media ul {
+.social-media ul {
   display: flex;
 }
 
-#main-heading-figure img {
-  max-width: 100%;
-}
-
-#social-media ul li img {
+.social-media ul li img {
   transform: scale(1.7);
 }
 
-#social-media li.grey-background {
+.social-media li.grey-background {
   padding: 1em;
   width: 4em;
   background-image: url("./assets/svg/Circle_Grey_Solid.svg");
   background-size: cover;
+}
+#main-heading-figure img {
+  max-width: 100%;
 }
 
 #main-heading-figure {
@@ -272,16 +271,55 @@ main {
   margin: 1em;
 }
 
+/* Comments section styling */
+
+#comments-section {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#comments-section p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  margin: 5em;
+  max-width: 100%;
+  width: 100%;
+}
+
+#comments-section-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#comments-section-buttons button {
+  width: 330px;
+  height: 36px;
+  background-color: #336991;
+  color: white;
+  border: 1px solid #336991;
+  border-radius: 3px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Other suggested articles styling */
 #other-articles-section {
-  background-color: yellow;
   display: grid;
   grid-template-columns: 12.5% 52.5% 22.5% 12.5%;
   grid-template-rows: minmax(min-content, max-content);
 }
 
 #other-articles-section article {
-  background-color: blue;
   margin: 1em;
 }
 
@@ -291,7 +329,6 @@ main {
 }
 
 #other-articles-section-aside {
-  background-color: red;
   grid-column: 3/4;
   grid-row: 1/4;
 }
@@ -360,9 +397,17 @@ footer {
   display: grid;
   grid-template-columns: 5fr 1fr;
 }
+
 #footer-articles {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-article-sub-section a {
+  height: 25px;
+  width: 150px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 #footer-bottom-nav {
