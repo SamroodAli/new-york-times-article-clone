@@ -153,7 +153,7 @@ header {
 /* Main article styling */
 main {
   display: grid;
-  grid-template-columns: 25% 50% 7% 18%;
+  grid-template-columns: 25% 50% 1fr 2fr 1fr;
 }
 
 #main-article {
@@ -166,6 +166,17 @@ main {
   grid-column: 4/5;
 }
 
+#main-article-aside article {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 30% 70%;
+}
+
 #main-article-aside img {
   max-width: 100%;
+}
+
+#main-article-aside p {
+  margin: 1rem;
 }
