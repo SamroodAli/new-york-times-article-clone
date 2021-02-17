@@ -171,10 +171,16 @@ main {
 
 #main-article {
   display: flex;
+  align-items: center;
   flex-direction: column;
   grid-column: 2/3;
 }
 
+#main-article p {
+  width: 70%;
+}
+
+/* Main article aside */
 #main-article-aside {
   grid-column: 4/5;
 }
