@@ -538,6 +538,8 @@ span.caption {
 
 #text-picture span {
   font-weight: bold;
+  color: black;
+  font-size: 0.9em;
 }
 
 #inflation-theory-creator {
