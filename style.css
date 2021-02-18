@@ -230,6 +230,14 @@ main {
   grid-auto-rows: minmax(min-content, max-content);
 }
 
+time {
+  align-self: flex-start;
+  margin-left: 15%;
+  margin-bottom: 1em;
+  font-size: 13px;
+  line-height: 16px;
+}
+
 #main-article h2,
 #main-article h3,
 #main-article h4,
@@ -449,10 +457,18 @@ main {
   margin-bottom: 1em;
 }
 
+span {
+  color: #999;
+}
+
 span.date {
   font-size: 12px;
   line-height: 20px;
-  color: #999;
+}
+
+span.caption {
+  font-size: 10px;
+  line-height: 12.3px;
 }
 
 #more-articles h4 {
@@ -632,10 +648,11 @@ footer hr {
 }
 
 .footer-article-sub-section a {
-  height: 25px;
   width: 150px;
   font-size: 13px;
+  line-height: 16px;
   font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 #footer-bottom-nav {
