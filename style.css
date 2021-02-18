@@ -436,16 +436,27 @@ main {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid black;
+}
+
+#more-articles h4 {
+  grid-column: 1/4;
+  margin: 1em 0 1em 0.5em;
 }
 
 #other-articles-section #more-articles article {
-  margin: 0 1em;
+  margin: 0 0.5em;
 }
 
-.editor-pick-articles {
+#editor-pick-articles {
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+#editor-pick-articles h4 {
+  grid-column: 1/4;
+  margin: 2em 0;
 }
 
 /* Text on picture styling */
