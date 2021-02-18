@@ -617,7 +617,7 @@ footer a {
 
 #footer-aside {
   border-left: 1px solid gainsboro;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 #subscribe-section {
