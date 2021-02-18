@@ -392,7 +392,7 @@ main {
 #other-articles-section #newsletter article {
   border: 1px solid rgb(226, 226, 226);
   margin-top: 2em;
-  height: 70%;
+  height: 90%;
   padding: 1em;
   position: relative;
 }
@@ -424,13 +424,17 @@ main {
 }
 
 #newsletter .newsletter-text-container {
-  margin-bottom: 50%;
+  margin-bottom: 5em;
   position: relative;
+  margin-bottom: 2em;
 }
 
-#newsletter .newsletter-text-container .latest-p {
+#newsletter .latest-p {
   position: absolute;
-  bottom: 0;
+  bottom: 0.5em;
+  font-size: 1em;
+  line-height: 1em;
+  color: #326891;
 }
 
 #newsletter .newsletter-text-container h5 {
@@ -443,6 +447,12 @@ main {
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid black;
   margin-bottom: 1em;
+}
+
+span.date {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
 }
 
 #more-articles h4 {
