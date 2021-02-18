@@ -358,28 +358,27 @@ main {
   display: grid;
 }
 
-#suggested-articles section {
-  margin: 1em;
-}
-
 #other-articles-section-aside {
   grid-column: 3/4;
   grid-row: 1/4;
-  margin: 1em;
+  margin: 0 1em 1em 1em;
+  border-top: 1px solid black;
 }
 
-#other-articles-section-aside article {
+#other-articles-section-aside h4 {
+  margin-top: 1em;
+}
+
+#other-articles-section #other-articles-section-aside article {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
   line-height: 23px;
   margin: 2em 0;
   font-size: 1.2em;
-  border-top: 1px solid rgb(226, 226, 226);
-}
-
-#other-articles-section section {
-  margin: 1em;
+  font-size: 1em;
+  border-top: 1px solid grey;
+  padding-top: 1em;
 }
 
 /* Styling the other articles */
@@ -387,29 +386,60 @@ main {
   grid-row: 1/2;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid black;
 }
 
 /* styling the newsletter articles */
-
-#newsletter article {
+#other-articles-section #newsletter article {
   border: 1px solid rgb(226, 226, 226);
+  margin-top: 2em;
+  height: 70%;
+  padding: 1em;
+  position: relative;
+}
+
+#newsletter #add-button {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+#newsletter-heading {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+#newsletter-heading p {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 2rem;
+  color: rgb(102, 102, 102);
+  background: rgb(255, 255, 255);
 }
 
 #newsletter article img {
-  margin: 1em;
   max-width: 30%;
   max-height: 30%;
 }
 
 #newsletter .newsletter-text-container {
   margin-bottom: 50%;
-  padding: 1em;
 }
 
-.more-articles {
+#newsletter .newsletter-text-container h5 {
+  font-weight: bold;
+}
+
+#more-articles {
   grid-row: 2/3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+#other-articles-section #more-articles article {
+  margin: 0 1em;
 }
 
 .editor-pick-articles {
