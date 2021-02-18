@@ -47,7 +47,7 @@ nav#fixed-top-nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0.1em;
+  padding: 0.2em;
   display: grid;
   grid-template-rows: minmax(min-content, max-content);
   justify-content: center;
@@ -107,7 +107,7 @@ nav#fixed-top-nav {
   width: 100%;
   font-family: helvetica, arial, sans-serif;
   font-size: 0.7em;
-  margin: 0.2em;
+  margin: 0.1em 0.3em;
   border-radius: 4%;
   font-weight: 900;
   border: 1px solid #326891;
@@ -372,13 +372,13 @@ main {
 #other-articles-section #other-articles-section-aside article {
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-weight: 500;
   line-height: 23px;
   margin: 2em 0;
   font-size: 1.2em;
   font-size: 1em;
   border-top: 1px solid grey;
   padding-top: 1em;
+  font-weight: 700;
 }
 
 /* Styling the other articles */
@@ -437,6 +437,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid black;
+  margin-bottom: 1em;
 }
 
 #more-articles h4 {
@@ -452,6 +453,8 @@ main {
   grid-row: 3/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid black;
+  margin-top: 1em;
 }
 
 #editor-pick-articles h4 {
@@ -466,7 +469,21 @@ main {
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
-  justify-content: stretch;
+  align-items: flex-start;
+}
+
+#inflation-theory-container h3 {
+  margin-left: 0;
+}
+
+#inflation-theory-container p {
+  align-self: stretch;
+  width: 100%;
+}
+
+#main-article #inflation-theory-container img {
+  max-height: 80%;
+  margin: 20px 0;
 }
 
 #main-article #inflation-theory h3 {
