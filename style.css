@@ -176,6 +176,11 @@ header {
   grid-column: 1/2;
 }
 
+footer hr {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
 #heading-and-social-network hr {
   margin: 1em;
   transform: scaleY(0.5);
@@ -547,7 +552,7 @@ span.caption {
   margin-bottom: 5em;
 }
 
-#inflation-theory-creator hr {
+#main-article #inflation-theory-creator hr {
   width: 5%;
   border: 1px solid black;
   background-color: black;
@@ -580,11 +585,6 @@ footer {
 
 footer a {
   margin: 3px;
-}
-
-footer hr {
-  grid-column: 2/3;
-  grid-row: 1/2;
 }
 
 #footer-new-york-times {
@@ -632,7 +632,8 @@ footer hr {
   width: 150px;
   font-size: 13px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 500;
+  color: black;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
