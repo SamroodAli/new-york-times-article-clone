@@ -431,7 +431,6 @@ time {
 }
 
 #newsletter .newsletter-text-container {
-  margin-bottom: 5em;
   position: relative;
   margin-bottom: 2em;
 }
@@ -453,6 +452,7 @@ time {
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid black;
   margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 span {
@@ -483,9 +483,6 @@ span.caption {
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid black;
   margin: 1em 0;
-}
-#editor-pick-articles article {
-  margin: 1em 0.5em;
 }
 
 #editor-pick-articles h4 {
