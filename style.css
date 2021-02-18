@@ -682,9 +682,12 @@ footer .large-links {
   border: 1px solid #999;
   padding: 2em 0;
   color: #336991;
-  background-color: #eee;
   border-radius: 2%;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+#form-checkbox h2 {
+  text-align: center;
 }
 
 #form-p {
@@ -696,7 +699,7 @@ form input {
   margin: 0.1em;
   border-radius: 2%;
   background-color: #eee;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 
 form label {
