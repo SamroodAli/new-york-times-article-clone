@@ -472,8 +472,9 @@ main {
   align-items: flex-start;
 }
 
-#inflation-theory-container h3 {
-  margin-left: 0;
+#main-article #inflation-theory-container hr {
+  width: 15%;
+  margin-bottom: 1em;
 }
 
 #inflation-theory-container p {
@@ -487,6 +488,7 @@ main {
 }
 
 #main-article #inflation-theory h3 {
+  margin-left: 0;
   font-size: 1.2em;
   color: #121212;
   font-weight: 700;
@@ -545,13 +547,21 @@ main {
 footer {
   margin-top: 5em;
   display: grid;
-  gap: 50px;
   grid-template-rows: minmax(min-content, max-content);
   grid-template-columns: 1fr 6fr 1fr;
 }
 
 footer a {
   margin: 3px;
+}
+
+footer hr {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#footer-new-york-times {
+  margin: 1em 0;
 }
 
 #footer-nav-columns {
