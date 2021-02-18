@@ -341,7 +341,8 @@ time {
   align-items: stretch;
 }
 
-#comments-section-buttons button {
+#comments-section-buttons button,
+#button-form {
   width: 330px;
   height: 36px;
   background-color: #336991;
@@ -671,5 +672,42 @@ footer .large-links {
 
 .footer-subscribe-icon-links-container {
   margin-top: 0.5em;
-  display: flex;
+}
+
+/* Form styling  */
+#form-container form {
+  margin: 5em;
+  display: grid;
+  justify-content: center;
+  border: 1px solid #999;
+  padding: 2em 0;
+  color: #336991;
+  background-color: #eee;
+  border-radius: 2%;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+#form-p {
+  color: #336991;
+}
+
+form input {
+  padding: 1em;
+  margin: 0.1em;
+  border-radius: 2%;
+  background-color: #eee;
+  border: 1px solid white;
+}
+
+form label {
+}
+
+form .form-input {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-bottom: 2em;
+}
+
+#button-form {
+  margin: 1em;
 }

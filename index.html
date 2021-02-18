@@ -439,6 +439,31 @@
                     edition with the
                     headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe
                 </p>
+                <!-- form -->
+                <section id="form-container">
+                    <form action="#">
+                        <section class="flex form-input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required maxlength="20">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" required maxlength="20">
+                        </section>
+                        <textarea name="comments" id="text-area-comments" cols="30" rows="10"
+                            placeholder="Type your comment here…" required maxlength="250"></textarea>
+                        <section id="form-radio">
+                            <p id='form-p'>What is your overall opinion about this article</p>
+                            <input type="radio" id="radio-positive" name="opinion" value="positive" checked>
+                            <label for="radio-positive">Positive</label><br>
+                            <input type="radio" id="radio-neutral" name="opinion" value="neutral">
+                            <label for="radio-neutral">Neutral</label><br>
+                            <input type="radio" id="radio-negative" name="opinion" value="positive">
+                            <label for="radio-negative">Negative</label><br>
+                            <input type="checkbox" id="form-checkbox" name="subscribe" value="true">
+                            <label for="form-checkbox">I want to subscribe to the newsletter</label>
+                        </section>
+                        <input type="submit" id="button-form">
+                    </form>
+                </section>
                 <section id="comments-section-buttons" class="flex">
                     <button>READ 615 COMMMENTS</button>
                     <nav class="social-media" id="bottom-social-media">
@@ -502,6 +527,8 @@
             </section>
         </aside>
     </main>
+
+
     <!-- Article links after the main article  -->
     <section id="other-articles-section" class="grid">
         <section id="suggested-articles" class="grid">
