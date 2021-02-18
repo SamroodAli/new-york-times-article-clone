@@ -4,11 +4,12 @@
 This is a clone of New York Times article page. 
 The real website can be visited @ https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html
 
-I have used semantic HTML
-Flexbox and Grid
-Floats for floating image in the article aside
-SVGs for the social media icons
-A Fixed nav bar using position:fixed
+## Features
+- I have used semantic HTML
+- Flexbox and Grid
+- Floats for floating image in the article aside
+- SVGs for the social media icons
+- A Fixed nav bar using position:fixed
 
 ![screenshot](./assets/png/screenshot.png)
 
