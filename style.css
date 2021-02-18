@@ -259,22 +259,41 @@ main {
 
 #main-article-aside {
   grid-column: 4/5;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#main-article-aside article {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: minmax(min-content, max-content);
+#main-article-aside section {
+  position: relative;
+  top: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main-article-aside section h3 {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+}
+
+#main-article-aside section article {
+  margin: 0.7em 0;
 }
 
 #main-article-aside img {
   max-width: 100%;
+  float: left;
+  height: 5em;
+  width: 5em;
+  margin: 0.4em;
 }
 
 #main-article-aside p {
-  margin: 1em;
+  margin-left: 1em;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 2em;
+  color: black;
 }
 
 /* Comments section styling */
