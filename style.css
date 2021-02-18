@@ -34,6 +34,10 @@ figcaption {
   display: grid;
 }
 
+.flex {
+  display: flex;
+}
+
 body {
   grid-template-rows: minmax(min-content, max-content);
   flex-flow: column nowrap;
@@ -88,13 +92,11 @@ nav#fixed-top-nav {
 }
 
 .nav-center {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .nav-end {
-  display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: stretch;
@@ -192,10 +194,6 @@ header {
   color: #121212;
 }
 
-.social-media ul {
-  display: flex;
-}
-
 .social-media ul li img {
   transform: scale(1.7);
 }
@@ -246,7 +244,6 @@ time {
 }
 
 #main-article {
-  display: flex;
   align-items: center;
   flex-direction: column;
   grid-column: 2/3;
@@ -280,7 +277,6 @@ time {
 #main-article-aside section {
   position: relative;
   top: 1000px;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -314,7 +310,6 @@ time {
 
 #comments-section {
   margin: 2em;
-  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -331,7 +326,6 @@ time {
 }
 
 #comments-section-buttons {
-  display: flex;
   justify-content: flex-start;
   align-items: stretch;
 }
@@ -408,7 +402,6 @@ time {
 
 #newsletter-heading {
   grid-column: 1/4;
-  display: flex;
   justify-content: space-between;
   padding-top: 1em;
 }
@@ -493,7 +486,6 @@ span.caption {
 
 #inflation-theory-container {
   margin-top: 2em;
-  display: flex;
   flex-direction: column;
   grid-column: 2/3;
   align-items: flex-start;
@@ -624,7 +616,6 @@ footer hr {
 }
 
 #subscribe-section {
-  display: flex;
   flex-direction: column;
 }
 
@@ -632,7 +623,6 @@ footer hr {
   margin: 1em 0;
   padding: 1em 0;
   border-top: 1px solid gainsboro;
-  display: flex;
   flex-direction: column;
 }
 
@@ -649,7 +639,6 @@ footer hr {
   padding-top: 2em;
   grid-row: 2/3;
   grid-column: 2/3;
-  display: flex;
   flex-wrap: nowrap;
   margin: 2em;
 }
@@ -670,7 +659,6 @@ footer .large-links {
 }
 
 #footer-articles .footer-article-sub-section {
-  display: flex;
   flex-direction: column;
 }
 
