@@ -199,6 +199,12 @@ footer hr {
   color: #121212;
 }
 
+.footer-subscribe-icon-links-container img {
+  height: 15px;
+  width: 15px;
+  margin: 0 10px;
+}
+
 .social-media ul li img {
   transform: scale(1.7);
 }
@@ -640,10 +646,10 @@ footer a {
 #footer-bottom-nav {
   border-top: 1px solid gainsboro;
   padding-top: 2em;
-  grid-row: 2/3;
   grid-column: 2/3;
   flex-wrap: nowrap;
   margin: 2em;
+  grid-row: 3/4;
 }
 
 #footer-bottom-nav a {
@@ -668,14 +674,4 @@ footer .large-links {
 .footer-subscribe-icon-links-container {
   margin-top: 0.5em;
   display: flex;
-}
-
-.footer-subscribe-icon-links-container img {
-  height: 15px;
-  width: 15px;
-  margin: 0 10px;
-}
-
-#footer-bottom-nav {
-  grid-row: 3/4;
 }
