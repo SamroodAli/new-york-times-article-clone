@@ -3,10 +3,9 @@
 # NEW YORK TIMES ARTICLE CLONE PROJECT
 
 > One paragraph statement about the project.
-> This is a clone of
-> ![screenshot](./app_screenshot.png)
+> This is a clone of NEW YORK TIMES ARTICLE at https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html >
 
-Additional description about the project and its features.
+![screenshot](./assets/png/screenshot.png)
 
 ## Built With
 
@@ -15,34 +14,19 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://samroodali.github.io/new-york-times-article-clone/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Clone the project : https://github.com/SamroodAli/new-york-times-article-clone.git
+- Open Index.html
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Prerequisites
+👤 SAMROOD ALI
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/SamroodAli)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/samrood-ali/)
 
 ## 🤝 Contributing
 
@@ -56,10 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- ilya Babcenco
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- Ilya Babcenco for his support during the project
+- Lamia Hemayet Sristy for her code review. Thank you for explaining things clearly.
+- New York Times article
+- Microverse
