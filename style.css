@@ -231,6 +231,15 @@ main {
   grid-auto-rows: minmax(min-content, max-content);
 }
 
+#main-article h2,
+#main-article h3,
+#main-article h4,
+#main-article h6 {
+  margin: 1em 0;
+  margin-left: 5em;
+  align-self: flex-start;
+}
+
 #main-article {
   display: flex;
   align-items: center;
@@ -410,18 +419,64 @@ main {
 }
 
 /* Text on picture styling */
+
+#inflation-theory-container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  justify-content: stretch;
+}
+
+#main-article #inflation-theory h3 {
+  font-size: 1.2em;
+  color: #121212;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#main-article #inflation-theory p {
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 20px;
+  color: #666;
+}
+
 #text-picture {
   display: grid;
   grid-template-columns: repeat(4, 240px);
-  grid-template-rows: 150px 110px 170px 135px;
-  margin: 200px;
+  grid-template-rows: 140px 230px 170px 125px;
+  gap: 10px;
 }
 
-#text-picture p {
+#main-article #text-picture p {
   font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
+}
+
+#text-picture span {
+  font-weight: bold;
+}
+
+#inflation-theory-creator {
+  margin-top: 7em;
+  margin-bottom: 5em;
+}
+
+#inflation-theory-creator hr {
+  width: 5%;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 2px;
+}
+
+#main-article #inflation-theory-creator p {
+  font-size: 15px;
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif;
 }
 
 /* Footer styling */
