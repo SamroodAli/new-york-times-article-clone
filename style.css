@@ -647,6 +647,7 @@ footer a {
   flex-wrap: nowrap;
   margin: 2em;
   grid-row: 3/4;
+  justify-content: space-evenly;
 }
 
 #footer-bottom-nav a {
