@@ -145,10 +145,11 @@ nav#fixed-top-nav {
   height: 20px;
 }
 
-#bookmark {
+.bookmark {
   width: 1em;
   position: relative;
-  top: 0.7em;
+  top: 0.9em;
+  margin-left: 0.1em;
 }
 
 /* Main Heading Style */
@@ -396,7 +397,7 @@ main {
   position: relative;
 }
 
-#newsletter #add-button {
+#newsletter .add-button {
   position: absolute;
   top: 1em;
   right: 1em;
@@ -424,6 +425,12 @@ main {
 
 #newsletter .newsletter-text-container {
   margin-bottom: 50%;
+  position: relative;
+}
+
+#newsletter .newsletter-text-container .latest-p {
+  position: absolute;
+  bottom: 0;
 }
 
 #newsletter .newsletter-text-container h5 {
@@ -452,7 +459,10 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid black;
-  margin-top: 1em;
+  margin: 1em 0;
+}
+#editor-pick-articles article {
+  margin: 1em 0.5em;
 }
 
 #editor-pick-articles h4 {
@@ -535,6 +545,13 @@ main {
 #main-article #inflation-theory-creator p {
   font-size: 15px;
   font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+
+#bottom-social-media {
+  position: relative;
+  left: 4em;
+  bottom: 0.5em;
+  transform: scale(0.7);
 }
 
 /* Footer styling */
